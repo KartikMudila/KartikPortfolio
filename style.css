@@ -1,0 +1,134 @@
+body{
+  background-image:url('Stain.png');
+  font-family: 'Poppins',cursive;
+}
+ul {
+  list-style-type: none;
+}
+
+li a {
+  display: inline;
+  padding: 8px;
+  background-color:#5061AC ;
+}
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+.navbar ul{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: 'Poppins',cursive;
+}
+.navbar ul a{
+  text-decoration: none;
+  color: #eee;
+}
+.navbar ul li{
+  margin: 10px;
+}
+#first-section{
+color:white;
+margin: 200px 150px;
+}
+.myself{
+position:relative;
+left: 10px;
+margin:100px 100px;
+}
+.myself img{
+border-radius:50% ;
+}
+.stain{
+color: #5061AC;
+font-size: 100px;
+font-family: 'DIE NASTY',sans-serif;
+}
+h1{
+font-size:100px;
+}
+h2{
+font-size:50px;
+}
+#second-section{
+ margin:30px 150px;
+ color:white;
+ font-size:20px;
+}
+#third-section{
+ margin:30px 150px;
+ color:white;
+ font-size:20px;
+}
+#fourth-section{
+ margin:30px 150px;
+ color:white;
+ font-size:20px;
+}
+.trident{
+float: left;
+padding:20px;
+}
+.tdc{
+float: left;
+padding:20px;
+}
+.uniq{
+float: left;
+padding:20px;
+}
+.Utah{
+float: left;
+padding:20px;
+}
+.Agii{
+float: left;
+padding:20px;
+}
+.Bride{
+float: left;
+padding:20px;
+}
+.Bang{
+float: left;
+padding:20px;
+}
+.Aralis{
+float: left;
+padding:20px;
+}
+.Danger{
+float: left;
+padding:20px;
+}
+.clear-float{
+clear: both;
+}
+#fifth-section{
+margin:30px 150px;
+color:white;
+font-size:20px;
+}
+.insta{
+float: left;
+padding:50px;
+}
+.facebook{
+float: left;
+padding:50px;
+}
+.behance{
+float: left;
+padding:50px;
+}
+footer {
+text-align: center;
+padding: 3px;
+background-color: #5061AC;
+color: white;
+}
